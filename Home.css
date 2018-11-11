@@ -32,13 +32,17 @@ a:hover
 {
     color: lightgrey;
 }
+h2
+{
+    color:#ff30fd;
+}
 p
 {
   float: left;
-  position: relative;
-  right: 20%;
-  left: 50%;
-  top: 81px;
+  position: fixed;
+  left: 110px;
+  /*left: 50%;
+  top: 81px;*/
   color:#ff30fd;
 }
 .logo
