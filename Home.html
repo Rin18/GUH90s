@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="Home.css">
+  <title>GREATUNIHACK</title>
+</head>
+<body>
+  <div class="logo">
+    <img src="guh_logo_90s_text.png" width = 98%>
+  </div>
+  <!--<h2>Time Remaining : </h2>-->
+  <p id="demo" style="font-size:30px"></p>
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Nov 10, 2019 12:00:00").getTime();
+
+    // Update the count down every 1 second
+    var countdownfunction = setInterval(function() {
+
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now an the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Output the result in an element with id="demo"
+      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+
+      // If the count down is over, write some text
+      if (distance < 0) {
+        clearInterval(countdownfunction);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+  </script>
+  <div class = "border">
+    <div>
+      <img src="windows98taskbar.jpg" width = 99%>
+    </div>
+    <ul>
+    <a href="pageLoader.html"><li>Sponsors</li><a>
+    <a href="pageLoaderE.html"><li>Event Info</li></a>
+    <a href="pageLoaderF.html"><li>FAQ</li></a>
+    <a href="pageLoaderA.html"><li>About us</li></a>
+    </ul>
+  </div>
+</body>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+</html>

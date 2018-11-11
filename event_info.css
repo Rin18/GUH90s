@@ -1,0 +1,27 @@
+body
+{
+    background-image: url("falloutterminal.gif");
+}
+
+.main_content
+{
+  background-color: white;
+  margin: 10% auto;
+  width:50%;
+}
+a
+{
+  text-decoration: none;
+  color:black
+}
+a:hover
+{
+    color: darkgreen;
+}
+
+.ads
+{
+    position: fixed;
+    bottom: 140px;
+    right: 480px;
+}

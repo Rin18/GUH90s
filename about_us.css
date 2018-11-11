@@ -1,0 +1,12 @@
+body
+{
+  background-image: url("hack.gif");
+}
+.main_content
+{
+  position: fixed;
+  bottom: 50%;
+  left: 25%;
+  background-color: white;
+  width: 50%;
+}

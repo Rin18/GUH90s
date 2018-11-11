@@ -1,0 +1,12 @@
+body
+{
+  background-image: url("okaykid.jpeg");
+  background-size: cover;
+}
+
+.main
+{
+  margin: auto;
+  width: 50%;
+  background-color: white;
+}

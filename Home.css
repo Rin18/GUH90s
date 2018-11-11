@@ -1,0 +1,50 @@
+body
+{
+  border-top: 100px solid grey;
+  border-left: 100px solid grey;
+  border-right: 100px solid grey;
+  background-image: url("hackerman.gif");
+  background-size: cover;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: 100px 10px !important;
+}
+.border
+{
+  position: fixed;
+  bottom: 0px;
+  width: 90%;
+  height: 150px;
+  background-color: grey;
+  margin-bottom: 8px;
+}
+li
+{
+  list-style: none;
+  float:right;
+  padding: 5px;
+}
+a
+{
+  color:black
+}
+a:hover
+{
+    color: lightgrey;
+}
+p
+{
+  float: left;
+  position: relative;
+  right: 20%;
+  left: 50%;
+  top: 81px;
+  color:#ff30fd;
+}
+.logo
+{
+  position : fixed;
+  bottom: 0;
+  width: 15%;
+  height: 25%;
+}
